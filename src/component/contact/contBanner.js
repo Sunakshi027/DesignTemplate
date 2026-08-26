@@ -92,7 +92,7 @@ export default function Banner() {
           {/* Form */}
           <form
             onSubmit={handleSubmit}
-            className="mx-auto w-full max-w-[1090px] rounded-[20px] border border-[#3d3d3ccc] bg-[#15100C] p-[30px] shadow-[0_10px_40px_rgba(0,0,0,0.5)] md:p-[50px] lg:p-[70px]"
+            className="mx-auto w-full max-w-[1090px] rounded-[20px] border border-[#3d3d3ccc] bg-[#15100C]  p-[15px] shadow-[0_10px_40px_rgba(0,0,0,0.5)] md:p-[50px] lg:p-[70px]"
           >
 
             <div className="mb-[40px] text-center text-[18px] md:mb-[50px] md:text-[22px]">
@@ -101,7 +101,7 @@ export default function Banner() {
               </p>
             </div>
 
-            <div className="mb-[20px] flex flex-col gap-[20px] md:flex-row">
+            <div className="mb-[20px] flex flex-col md:gap-[20px]  gap-[10px] md:flex-row">
 
               <div className="flex w-full flex-col text-[18px]">
                 <label
@@ -118,7 +118,7 @@ export default function Banner() {
                   value={formData.firstName}
                   onChange={handleChange}
                   required
-                  className="rounded-[6px]   bg-[#EFE6D10A] px-[15px] py-[20px] text-[#EFE6D1] outline-none placeholder:text-[#EFE6D180] focus:border-[#EFE6D1]"
+                  className="rounded-[6px]   bg-[#EFE6D10A] px-[15px] md:py-[20px] py-[10px] text-[#EFE6D1] outline-none placeholder:text-[#EFE6D180] focus:border-[#EFE6D1]"
                 />
               </div>
 
@@ -138,7 +138,7 @@ export default function Banner() {
                   value={formData.lastName}
                   onChange={handleChange}
                   required
-                  className="rounded-[6px] bg-[#EFE6D10A] px-[15px] py-[20px] text-[#EFE6D1] outline-none placeholder:text-[#EFE6D180] focus:border-[#EFE6D1]"
+                  className="rounded-[6px] bg-[#EFE6D10A] px-[15px] md:py-[20px] py-[10px] text-[#EFE6D1] outline-none placeholder:text-[#EFE6D180] focus:border-[#EFE6D1]"
                 />
               </div>
             </div>
@@ -161,7 +161,7 @@ export default function Banner() {
                   type="tel"
                   value={formData.phone}
                   onChange={handleChange}
-                  className="rounded-[6px]  bg-[#EFE6D10A] px-[15px] py-[20px] text-[#EFE6D1] outline-none placeholder:text-[#EFE6D180] focus:border-[#EFE6D1]"
+                  className="rounded-[6px]  bg-[#EFE6D10A] px-[15px] md:py-[20px] py-[10px] text-[#EFE6D1] outline-none placeholder:text-[#EFE6D180] focus:border-[#EFE6D1]"
                 />
               </div>
 
@@ -181,7 +181,7 @@ export default function Banner() {
                   value={formData.email}
                   onChange={handleChange}
                   required
-                  className="rounded-[6px]  bg-[#EFE6D10A] px-[15px] py-[20px] text-[#EFE6D1] outline-none placeholder:text-[#EFE6D180] focus:border-[#EFE6D1]"
+                  className="rounded-[6px]  bg-[#EFE6D10A] px-[15px] md:py-[20px] py-[10px] text-[#EFE6D1] outline-none placeholder:text-[#EFE6D180] focus:border-[#EFE6D1]"
                 />
               </div>
             </div>
@@ -204,7 +204,7 @@ export default function Banner() {
                   value={formData.subject}
                   onChange={handleChange}
                   required
-                  className="rounded-[6px]  bg-[#EFE6D10A] px-[15px] py-[20px] text-[#EFE6D1] outline-none placeholder:text-[#EFE6D180] focus:border-[#EFE6D1]"
+                  className="rounded-[6px]  bg-[#EFE6D10A] px-[15px] md:py-[20px] py-[10px] text-[#EFE6D1] outline-none placeholder:text-[#EFE6D180] focus:border-[#EFE6D1]"
                 />
               </div>
             </div>
@@ -227,7 +227,7 @@ export default function Banner() {
                   onChange={handleChange}
                   rows={6}
                   required
-                  className="resize-none rounded-[6px]  bg-[#EFE6D10A] px-[15px] py-[20px] text-[#EFE6D1] outline-none placeholder:text-[#EFE6D180] focus:border-[#EFE6D1]"
+                  className="resize-none rounded-[6px]  bg-[#EFE6D10A] px-[15px] md:py-[20px] py-[10px] text-[#EFE6D1] outline-none placeholder:text-[#EFE6D180] focus:border-[#EFE6D1]"
                 />
               </div>
             </div>
