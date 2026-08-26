@@ -118,7 +118,7 @@ export default function Banner() {
                   value={formData.firstName}
                   onChange={handleChange}
                   required
-                  className="rounded-[6px]   bg-[#EFE6D10A] px-[15px] md:py-[20px] py-[10px] text-[#EFE6D1] outline-none placeholder:text-[#EFE6D180] focus:border-[#EFE6D1]"
+                  className="rounded-[6px]   bg-[#EFE6D10A] px-[15px] md:py-[20px] py-[15px] text-[#EFE6D1] outline-none placeholder:text-[#EFE6D180] focus:border-[#EFE6D1]"
                 />
               </div>
 
@@ -138,7 +138,7 @@ export default function Banner() {
                   value={formData.lastName}
                   onChange={handleChange}
                   required
-                  className="rounded-[6px] bg-[#EFE6D10A] px-[15px] md:py-[20px] py-[10px] text-[#EFE6D1] outline-none placeholder:text-[#EFE6D180] focus:border-[#EFE6D1]"
+                  className="rounded-[6px] bg-[#EFE6D10A] px-[15px] md:py-[20px] py-[15px] text-[#EFE6D1] outline-none placeholder:text-[#EFE6D180] focus:border-[#EFE6D1]"
                 />
               </div>
             </div>
@@ -161,7 +161,7 @@ export default function Banner() {
                   type="tel"
                   value={formData.phone}
                   onChange={handleChange}
-                  className="rounded-[6px]  bg-[#EFE6D10A] px-[15px] md:py-[20px] py-[10px] text-[#EFE6D1] outline-none placeholder:text-[#EFE6D180] focus:border-[#EFE6D1]"
+                  className="rounded-[6px]  bg-[#EFE6D10A] px-[15px] md:py-[20px] py-[15px] text-[#EFE6D1] outline-none placeholder:text-[#EFE6D180] focus:border-[#EFE6D1]"
                 />
               </div>
 
@@ -181,7 +181,7 @@ export default function Banner() {
                   value={formData.email}
                   onChange={handleChange}
                   required
-                  className="rounded-[6px]  bg-[#EFE6D10A] px-[15px] md:py-[20px] py-[10px] text-[#EFE6D1] outline-none placeholder:text-[#EFE6D180] focus:border-[#EFE6D1]"
+                  className="rounded-[6px]  bg-[#EFE6D10A] px-[15px] md:py-[20px] py-[15px] text-[#EFE6D1] outline-none placeholder:text-[#EFE6D180] focus:border-[#EFE6D1]"
                 />
               </div>
             </div>
@@ -204,7 +204,7 @@ export default function Banner() {
                   value={formData.subject}
                   onChange={handleChange}
                   required
-                  className="rounded-[6px]  bg-[#EFE6D10A] px-[15px] md:py-[20px] py-[10px] text-[#EFE6D1] outline-none placeholder:text-[#EFE6D180] focus:border-[#EFE6D1]"
+                  className="rounded-[6px]  bg-[#EFE6D10A] px-[15px] md:py-[20px] py-[15px] text-[#EFE6D1] outline-none placeholder:text-[#EFE6D180] focus:border-[#EFE6D1]"
                 />
               </div>
             </div>
@@ -227,7 +227,7 @@ export default function Banner() {
                   onChange={handleChange}
                   rows={6}
                   required
-                  className="resize-none rounded-[6px]  bg-[#EFE6D10A] px-[15px] md:py-[20px] py-[10px] text-[#EFE6D1] outline-none placeholder:text-[#EFE6D180] focus:border-[#EFE6D1]"
+                  className="resize-none rounded-[6px]  bg-[#EFE6D10A] px-[15px] md:py-[20px] py-[15px] text-[#EFE6D1] outline-none placeholder:text-[#EFE6D180] focus:border-[#EFE6D1]"
                 />
               </div>
             </div>
