@@ -46,7 +46,7 @@ export default function Banner() {
 </a>
             </div>
 
-            <div className="grid  grid-cols-1 lg:grid-cols-5 md:grid-cols-2  text-center gap-[9px] lg:mt-[120px] md:mt-[100px] mt-[80px] text-[#737373] md:max-w-[70%]  " data-aos="fade-up">
+            <div className="grid  grid-cols-1 lg:grid-cols-5 md:grid-cols-2  text-center gap-[9px] lg:mt-[120px] md:mt-[100px] mt-[80px] text-[#737373] md:max-w-[70%]  " data-aos="fade-right">
               <div className="border  border-[#FFFFFF0A] bg-[#FFFFFF0A] py-[7px] px-[20px]  rounded-[297px] uppercase transition-all duration-300 hover:bg-[#b98c24] hover:border-[#e4b548]
              hover:text-white text-[14px]">
                 <a href="#Producer">Producer</a>
