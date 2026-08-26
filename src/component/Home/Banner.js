@@ -15,7 +15,7 @@ export default function Banner() {
         <div
           
         >
-          <div>
+          <div data-aos="fade-right">
             <h1 className="text-[#EFE6D1] lg:text-[176px] md:text-[100px] text-[60px]  md:w-[604px] leading-[170px] font-[Impact]">
               Misha R. Kozak
             </h1>
@@ -46,29 +46,29 @@ export default function Banner() {
 </a>
             </div>
 
-            <div className="grid  grid-cols-1 lg:grid-cols-5 md:grid-cols-2  text-center gap-[9px] lg:mt-[120px] md:mt-[100px] mt-[80px] text-[#737373]">
-              <div className="border border-[#FFFFFF0A] bg-[#FFFFFF0A] py-[7px] px-[20px]  rounded-[297px] uppercase transition-all duration-300 hover:bg-[#b98c24] hover:border-[#e4b548]
-             hover:text-white">
+            <div className="grid  grid-cols-1 lg:grid-cols-5 md:grid-cols-2  text-center gap-[9px] lg:mt-[120px] md:mt-[100px] mt-[80px] text-[#737373] md:max-w-[70%]  " data-aos="fade-up">
+              <div className="border  border-[#FFFFFF0A] bg-[#FFFFFF0A] py-[7px] px-[20px]  rounded-[297px] uppercase transition-all duration-300 hover:bg-[#b98c24] hover:border-[#e4b548]
+             hover:text-white text-[14px]">
                 <a href="#Producer">Producer</a>
               </div>
 
               <div className="border border-[#FFFFFF0A] bg-[#FFFFFF0A] py-[7px] px-[20px] rounded-[297px] uppercase transition-all duration-300 hover:bg-[#b98c24] hover:border-[#e4b548]
-               hover:text-white">
+               hover:text-white text-[14px]">
                 <a href="#Producer">Story-Editorial</a>
               </div>
 
               <div className="border border-[#FFFFFF0A] bg-[#FFFFFF0A] py-[7px] px-[20px] rounded-[297px] uppercase transition-all duration-300 hover:bg-[#b98c24] hover:border-[#e4b548]
-                 hover:text-white">
+                 hover:text-white text-[14px]">
                 <a href="#Producer">Field Producer</a>
               </div>
 
               <div className="border border-[#FFFFFF0A] bg-[#FFFFFF0A] py-[7px] px-[20px] rounded-[297px] uppercase transition-all duration-300 hover:bg-[#b98c24] hover:border-[#e4b548]
-                 hover:text-white">
+                 hover:text-white text-[14px]">
                 <a href="#Producer">Cinematographer</a>
               </div>
 
               <div className="border border-[#FFFFFF0A] bg-[#FFFFFF0A] py-[7px] px-[20px] rounded-[297px] uppercase transition-all duration-300 hover:bg-[#b98c24] hover:border-[#e4b548]
-               hover:text-white">
+               hover:text-white text-[14px]">
                 <a href="#Producer">Editor</a>
               </div>
             </div>
